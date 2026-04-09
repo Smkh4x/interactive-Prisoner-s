@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div id="rules-page">
+        <h1 class="title-top">interactive-Prisoner-s</h1>
+        <h3 class="game-name">Game Rules (Payoff Table)</h2>
+         
+        <p>
+            You Cooperate 	You get 3 pts — Computer gets 3 pts
+            <br>
+            You get 0 pts — Computer gets 5 pts
+            <br>
+            You Betray 	You get 5 pts — Computer gets 0 pts
+            <br>
+            You get 1 pt — Computer gets 1 pt
+        </p>
+
+    </div>
+
+<div id="table-page">
+       <table bgcolor="black">
+
+    <tr bgcolor="grey">
+        <th> Cooperates</th>
+        <th> Betrays</th>
+        <th>Result</th>
+    </tr>
+
+    <tr bgcolor="lightgrey">
+        <td>You get <span id="get-3">0</span> pts </td>
+        <td>You get <span id="get-5">0</span> pts</td>
+        <td>You gets <span id="result-5">0</span> pts</td>
+    </tr>
+
+    <tr bgcolor="lightgrey">
+        <td>Computer get <span id="get-3p">0</span> pts </td>
+        <td>Computer get <span id="get-5p">0</span> pts</td>
+        <td>Computer gets <span id="result-5p">0</span> pts</td>
+    </tr>
+
+
+
+    </table> 
+</div>
+
+<div id="buttons-page">
+    <button onclick="Cooperates()" class="buttons-p">Cooperates</button>
+    <button onclick="Betrays()" class="buttons-p">Betrays</button>
+    <h1 class="history">History :</h1>
+    <div>
+        <h2 class="result">Rounds  : <span  id="Rounsds">0</span></h2>
+        <h2 class="result">Computer  : <span id="computer-result">0</span></h2>
+        <h2 class="result">player : <span id="player-result">0</span></h2>
+    </div>
+
+</div>
+ 
+    <script src="script.js" ></script>
 </body>
 </html>

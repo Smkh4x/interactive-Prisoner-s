@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(imgs/web.jpeg);
+    background-size: 100%;
+}
+
+.title-top{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.game-name{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rules-page p{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    justify-content: center;
+    
+}
+
+#table-page{
+    display: flex;
+    margin: 0 350px;
+
+}
+#buttons-page .buttons-p {
+    display: flex;
+    position: relative;
+    background-color: #ccb46a;
+    top: -400px;
+    margin: 0 650px;
+    width: 400px;
+    padding:20px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.history{
+    display: flex;
+    position: relative;
+    background-color: #ccb46a;
+    font-family: 'Times New Roman', Times, serif;
+    top: -360px;
+    margin: 10px 750px;
+    padding: 0 10px;
+    width: 200px;
+    justify-content: center;
+    border-radius: 10px;
+    
+} 
+    #table-page{
+        
+        width: 500px;
+        height: 400px;
+        margin: 20px;
+    }
+
+.result{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 750px;
+    padding: 0 10px;
+    top: -350px;
+    width: 200px;
+    background-color: #ccb46a;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    
+}
+span{
+    color: #ff0000;
+}
