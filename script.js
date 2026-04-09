@@ -26,8 +26,8 @@ function interactive_Prisoners(){
         document.getElementById(`get-5`).innerHTML = "5";
         document.getElementById(`get-5p`).innerHTML = "0";
 
-        document.getElementById(`result-5`).innerHTML = Bootchoice;
-        document.getElementById(`result-5p`).innerHTML = Playerchoice;
+        document.getElementById(`result-5`).innerHTML = "5";
+        document.getElementById(`result-5p`).innerHTML = "0";
 
         rounds++;
         player += 5;
@@ -40,8 +40,8 @@ function interactive_Prisoners(){
         document.getElementById(`get-5`).innerHTML = "0";
         document.getElementById(`get-5p`).innerHTML = "5";
 
-        document.getElementById(`result-5`).innerHTML = Bootchoice;
-        document.getElementById(`result-5p`).innerHTML = Playerchoice;
+        document.getElementById(`result-5`).innerHTML = "0";
+        document.getElementById(`result-5p`).innerHTML = "5";
 
         rounds++;
         computer += 5;

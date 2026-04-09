@@ -30,7 +30,15 @@ body {
 #table-page{
     display: flex;
     margin: 0 350px;
-
+    
+}
+.edit-table-top{
+    background-color: #8a8282;
+    
+}
+.edit-table{
+    
+    background-color: #ccb46a;
 }
 #buttons-page .buttons-p {
     display: flex;
@@ -42,6 +50,8 @@ body {
     padding:20px;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    
 }
 .history{
     display: flex;
